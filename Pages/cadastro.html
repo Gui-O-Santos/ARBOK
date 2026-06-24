@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/Style/style.css">
+    <link rel="stylesheet" href="/./Style/cadasto.css">
+</head>
+<body>
+        <nav class="navbar">
+        <div class="logo">
+            <img src="/Images/Logo.png" class="logo">
+        </div>
+        <ul class="menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Saiba Mais</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Entrar</a></li>
+        </ul>
+    </nav>
+
+<div class="principal">
+<div class="card">
+    <h1>Cadastro de Usuário</h1>
+
+    <form id="cadastroForm">
+        <input
+            type="text"
+            id="nome"
+            placeholder="Nome"
+            required
+        >
+        <br>
+        <input
+            type="email"
+            id="email"
+            placeholder="E-mail"
+            required
+        >
+        <br>
+        <input
+            type="password"
+            id="senha"
+            placeholder="Senha"
+            required
+        >
+        <br>
+        <br>
+        <button type="submit">
+            Cadastrar
+        </button>
+    </form>
+
+    <p id="mensagem"></p>
+</div>
+</div>
+<script src="/Script/cadastro.js"></script>
+
+</body>
+</html>
