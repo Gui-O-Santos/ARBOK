@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/Style/style.css">
+    <link rel="stylesheet" href="/./Style/cadasto.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/Images/Logo.png" class="logo">
+        </div>
+        <ul class="menu">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/Pages/saiba_mais.html">Saiba Mais</a></li>
+            <li><a href="/Pages/contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+<div class="principal">
+<div class="card">
+    <h1>Login</h1>
+
+    <form id="loginForm">
+        <input
+            type="email"
+            id="email"
+            placeholder="E-mail"
+            required
+        >
+
+        <br>
+        <input
+            type="password"
+            id="senha"
+            placeholder="Senha"
+            required
+        >
+        <br>
+        <br>
+        <button type="submit">
+            Cadastrar
+        </button>
+        <br>
+        <a href="/Pages/cadastro.html">Criar conta</a>
+    </form>
+
+    <p id="mensagem"></p>
+</div>
+</div>
+<script src="/Script/cadastro.js"></script>
+
+</body>
+</html>
